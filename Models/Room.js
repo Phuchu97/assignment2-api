@@ -4,6 +4,7 @@ const {Schema} = mongoose;
 const RoomSchema = new Schema({
     title: String,
     hotelId: String,
+    hotel: String,
     rooms: Array,
     price: Number,
     maxPeople: Number,
